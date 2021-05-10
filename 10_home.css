@@ -50,6 +50,12 @@ ul {
     margin-left: 5%;
 }
 
+
+.nav li a {
+    color: #a7b0aa;
+    text-decoration: none;
+}
+
 .nav li {
     width: 24.25%;
     border: 1px solid black;
@@ -68,11 +74,6 @@ ul {
 
 .nav li:last-child {
     border-right: none;
-}
-
-.nav li a {
-    color: #a7b0aa;
-    text-decoration: none;
 }
 
 .nav-mb {
