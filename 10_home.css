@@ -71,14 +71,6 @@ ul {
 }
 
 .nav a {
-    width: 24.25%;
-    border: 1px solid black;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-    text-align: center;
-    display: inline-block;
-    padding: 3px 0;
     color: #a7b0aa;
     text-decoration: none;
 }
