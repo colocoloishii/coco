@@ -33,7 +33,7 @@ p {
     width: 1080px;
     height: 450px;
     margin: 30px auto;
-    background-image: url(00_img/151115sun-3.jpg);
+    background-image: url(151115sun-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 130%;
@@ -1397,7 +1397,7 @@ h1 {
         bottom: 60px;
         margin: 0;
         z-index: 10000;
-        background-image: url(00_img/up-arrow.png);
+        background-image: url(up-arrow.png);
         background-size: 58%;
         background-position: center;
         background-repeat: no-repeat;
