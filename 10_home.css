@@ -70,7 +70,7 @@ ul {
     border-right: none;
 }
 
-a {
+.nav a {
     width: 24.25%;
     border: 1px solid black;
     border-top: none;
