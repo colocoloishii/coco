@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="01_css/10_home.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- MOB NAV -->
+        <div class="nav-mb">
+            <!-- MOB MENU -->
+            <div class="sidenav" id="mySidenav" style="width: 0px;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                <a href="#">HOME</a>
+                <a href="#">ARTICLE</a>
+                <a href="#">PROFILE</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <!-- MOB NAV TOP-->
+            <div class="nav-top">
+                <img src="00_img/search.png" alt="">
+                <h2>LOGO</h2>
+                <span onclick="openNav()">&#8801;</span>
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <div class="header"></div>
+
+        <!-- NAV -->
+        <ul class="nav">
+            <li>HOME</li>
+            <li>ARTICLE</li>
+            <li>PROFILE</li>
+            <li>CONTACT</li>
+        </ul>
+
+        <!-- MAIN -->
+        <div class="main">
+            <!-- LEFT -->
+            <div class="left">
+                <!-- SPECIAL -->
+                <div class="special">
+                    <div class="special-title">
+                        <h2>SPECIAL!!</h2>
+                    </div>
+                    <div class="special-box">
+                        <div class="special-article">
+                            <img src="00_img/5c019de2753e4b95bbb0f5c360ffc371.jpg" alt="">
+                            <h1>TITLE</h1>
+                            <p class="special-date">28/05/2020</p>
+                            <p class="special-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                consectetur bore et dolore magna aliqua. Ut enim ask...
+                            </p>   
+                        </div>
+                        <div class="special-article">
+                            <img src="00_img/08ad561ea32ca5099b6a3352a99f1e43.jpg" alt="">
+                            <h1>TITLE</h1>
+                            <p class="special-date">28/05/2020</p>
+                            <p class="special-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                consectetur bore et dolore magna aliqua. Ut enim ask...
+                            </p>   
+                        </div>
+                    </div>
+                </div>
+                <!-- NEW ARTICLE -->
+                <div class="new">
+                    <div class="new-title">
+                        <h2>NEW JOUNAL</h2>
+                    </div>
+                    
+                    <!-- BUTOON -->
+                    <div class="tab">
+                        <button class="tablinks" onclick="openNew(event, 'Travel')">TRAVEL</button>
+                        <button class="tablinks" onclick="openNew(event, 'Trading')">TRADING</button>
+                        <button class="tablinks" onclick="openNew(event, 'Fashion')">FASHION</button>
+                      </div>
+
+                    <!-- TRAVEL -->
+                    <div id="Travel" class="tabcontent">
+                        <div class="travel">
+                            <div class="travel-box">
+                                <div class="travel-article">
+                                    <img src="00_img/01.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="travel-article">
+                                    <img src="00_img/02.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="travel-article">
+                                    <img src="00_img/03.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="travel-box">
+                                <div class="travel-article">
+                                    <img src="00_img/04.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="travel-article">
+                                    <img id="small" src="00_img/05.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="travel-article">
+                                    <img id="small" src="00_img/06.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="travel-date">28/05/2020</p>
+                                    <p class="travel-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p><a href="">1</a></p>
+                                <p><a href="">2</a></p>
+                                <p><a href="">3</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TRADING -->
+                    <div id="Trading" class="tabcontent">
+                        <div class="trading">
+                            <div class="trading-box">
+                                <div class="trading-article">
+                                    <img src="00_img/01.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img src="00_img/02.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img src="00_img/03.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="trading-box">
+                                <div class="trading-article">
+                                    <img src="00_img/04.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img id="small" src="00_img/05.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img id="small" src="00_img/06.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p><a href="">1</a></p>
+                                <p><a href="">2</a></p>
+ ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="fashion-article">
+                                    <img src="00_img/03.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="fashion-date">28/05/2020</p>
+                                    <p class="fashion-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="fashion-box">
+                                <div class="fashion-article">
+                                 <p><a href="">3</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FASHION -->
+                    <div id="Trading" class="tabcontent">
+                        <div class="trading">
+                            <div class="trading-box">
+                                <div class="trading-article">
+                                    <img src="00_img/01.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img src="00_img/02.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img src="00_img/03.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="trading-box">
+                                <div class="trading-article">
+                                    <img src="00_img/04.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img id="small" src="00_img/05.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="trading-article">
+                                    <img id="small" src="00_img/06.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="trading-date">28/05/2020</p>
+                                    <p class="trading-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p><a href="">1</a></p>
+                                <p><a href="">2</a></p>
+ ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                                <div class="fashion-article">
+                                    <img src="00_img/03.jpg" alt="">
+                                    <h1>TITLE</h1>
+                                    <p class="fashion-date">28/05/2020</p>
+                                    <p class="fashion-content">Lorem ipsum dolor sit  amet,  consectetur  adipisicing elit, incididunt ladolor, 
+                                        consectetur bore et dolore magna aliqua. Ut enim ask...
+                                    </p>   
+                                </div>
+                            </div>
+                            <div class="fashion-box">
+                                <div class="fashion-article">
+                                 <p><a href="">3</a></p>
+                            </div>
+                        </div>
+                    </div>
+                <!-- DISPLAY -->
+                <div class="display">
+                <a href="">HOME</a>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <div class="right">
+                <!-- CATEGORY -->
+                <div class="category">
+                    <div class="title">
+                        <h3>CATEGORY</h3>
+                    </div>
+                    <div class="category-travel">
+                        <!-- Travel -->
+                        <div class="category-title">
+                            <h3>Travel</h3>
+                            <hr id="line">
+                        </div>
+                        <div class="category-main">
+                            <hr id="subline">
+                            <p><a href="">Europe</a></p>
+                            <hr id="subline">
+                            <p><a href="">South America</a></p>
+                            <hr id="subline">
+                            <p><a href="">North America</a></p>
+                            <hr id="subline">
+                            <p><a href="">Asia</a></p>
+                        </div>
+                        <!-- Trading -->
+                        <div class="category-title">
+                            <h3>Trading</h3>
+                            <hr id="line">
+                        </div>
+                        <div class="category-main">
+                            <hr id="subline">
+                            <p><a href="">Europe</a></p>
+                            <hr id="subline">
+                            <p><a href="">South America</a></p>
+                            <hr id="subline">
+                            <p><a href="">North America</a></p>
+                            <hr id="subline">
+                            <p><a href="">Asia</a></p>
+                        </div>
+                        <!-- Fashion -->
+                        <div class="category-title">
+                            <h3>Fashion</h3>
+                            <hr id="line">
+                        </div>
+                        <div class="category-main">
+                            <hr id="subline">
+                            <p><a href="">Europe</a></p>
+                            <hr id="subline">
+                            <p><a href="">South America</a></p>
+                            <hr id="subline">
+                            <p><a href="">North America</a></p>
+                            <hr id="subline">
+                            <p><a href="">Asia</a></p>
+                        </div>   
+                    </div>
+                </div>
+                <!-- SEARCH -->
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <!-- <img src="00_img/search.png" alt=""> -->
+                </div>
+                <!-- PROFILE -->
+                <div class="profile-parent">
+                    <!-- NAME1 -->
+                    <div class="name-1">
+                        <img src="00_img/user.png" alt="">
+                        <h3>NAME</h3>
+                        <h4 class="job">Lorem ipsum / dolor amet / adipisicing</h4>
+                        <p>Lorem ipsum dolor sit amet, con
+                            sectetur adipisicing elit, incidid
+                            unt utlaboreet dolore magna aliqua.
+                            Ut enim ad minim veniam…
+                        </p>
+                        <div class="sns">
+                            <img src="00_img/icons8-instagram-50.png" alt="">
+                            <img src="00_img/icons8-facebook-50.png" alt="">
+                            <img src="00_img/icons8-twitter-squared-50.png" alt="">
+                            <img src="00_img/icons8-play-button-50.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- NAME2 -->
+                    <div class="name-2">
+                        <img src="00_img/user.png" alt="">
+                        <h3>NAME</h3>
+                        <h4 class="job">Lorem ipsum / dolor amet / adipisicing</h4>
+                        <p>Lorem ipsum dolor sit amet, con
+                            sectetur adipisicing elit, incidid
+                            unt utlaboreet dolore magna aliqua.
+                            Ut enim ad minim veniam…
+                        </p>
+                        <div class="sns">
+                            <img src="00_img/icons8-instagram-50.png" alt="">
+                            <img src="00_img/icons8-facebook-50.png" alt="">
+                            <img src="00_img/icons8-twitter-squared-50.png" alt="">
+                            <img src="00_img/icons8-play-button-50.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BACK BUTTON -->
+            <a id="back-to-top" href="#" class="on"></a>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-BG">
+        <div class="footer">
+            <h2>LOGO</h2>
+            <div class="footer-nav">
+                <h3>HOME</h3>
+                <h3>ARTICLE</h3>
+                <h3>PROFILE</h3>
+                <h3>CONTACT</h3>
+            </div>
+            <div class="footer-main">
+                <div class="footer-tag">
+                    <div class="footer-tag-title">
+                        <h3>TAG:</h3>
+                    </div>
+                    <div class="footer-tag-main">
+                        <a href="">Europe</a>
+                        <a href="">travel</a>
+                        <a href="">trading</a>
+                        <a href="">Asia</a>
+                        <a href="">Trading</a>
+                        <a href="">cheap</a>
+                        <a href="">fan</a>
+                        <a href="">travel</a>
+                        <a href="">trading</a>
+                        <a href="">Asia</a>
+                    </div>
+                </div>
+                <div class="footer-category">
+                    <div class="footer-category-title">
+                        <h3>CATEGORY:</h3>
+                    </div>
+                    <div class="footer-category-main">
+                        <select name="category" id="">
+                            <option disabled selected>Search a Category</option>
+                            <option value="travel">Travel</option>
+                            <option value="trading">Trading</option>
+                            <option value="fashion">Fashion</option>
+                        </select>
+                        <div class="space"></div>
+                    </div>
+                </div>
+                <div class="footer-search">
+                    <div class="footer-search-title">
+                        <h3>SEARCH:</h3>
+                    </div>
+                    <div class="footer-search-main">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNew(evt, catName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(catName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById('mySidenav').style.width = "1200px";
+        }
+
+        function closeNav() {
+            document.getElementById('mySidenav').style.width = "0px";
+        }
+    </script>
+
+</body>
+</html>
